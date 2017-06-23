@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  canary-binary:
+    image: 'bitnami/canary-binary:1'
+    volumes:
+      - 'canary-binary_data:/bitnami/canary-binary'
+volumes:
+  canary-binary_data:
+    driver: local
