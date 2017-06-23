@@ -1,0 +1,8 @@
+version: '2'
+services:
+  canary:
+    image: 'node-helloworld/node-helloworld-binary:latest'
+    labels:
+      kompose.service.type: nodeport
+    ports:
+      - '80:8080'
