@@ -17,7 +17,7 @@ To run this application you need Docker Engine 1.10.0. Docker Compose is recomen
 
 # License
 
-Copyright (c) 2017 Bitnami
+Copyright (c) 2018 Bitnami
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
