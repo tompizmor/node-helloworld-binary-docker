@@ -8,7 +8,7 @@ RUN bitnami-pkg unpack canary-binary-1.0.13-0 --checksum f4dd0a7e8799ba1616704a3
 
 COPY rootfs /
 ENV BITNAMI_APP_NAME="canary-binary" \
-    BITNAMI_IMAGE_VERSION="1.0.13-r18" \
+    BITNAMI_IMAGE_VERSION="1.0.13-r19" \
     PATH="/opt/bitnami/node/bin:/opt/bitnami/canary-binary/bin:$PATH"
 
 EXPOSE 8080
